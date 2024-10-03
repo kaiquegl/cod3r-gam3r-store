@@ -1,7 +1,7 @@
 import { Injectable } from "@nestjs/common";
 
 import type { Order } from "@gstore/core";
-import type { PrismaProvider } from "src/db/prisma.provider";
+import { PrismaProvider } from "src/db/prisma.provider";
 
 @Injectable()
 export class OrderPrisma {

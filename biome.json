@@ -48,6 +48,10 @@
 			},
 			"style": {
 				"noNonNullAssertion": "off",
+				"useImportType": {
+					"level": "info",
+					"fix": "none"
+				},
 				"useSelfClosingElements": "info"
 			},
 			"complexity": {

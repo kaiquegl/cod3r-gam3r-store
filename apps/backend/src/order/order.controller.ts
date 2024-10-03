@@ -1,7 +1,7 @@
 import { Body, Controller, Delete, Get, Param, Post } from "@nestjs/common";
 
 import type { Order } from "@gstore/core";
-import type { OrderPrisma } from "src/order/order.prisma";
+import { OrderPrisma } from "src/order/order.prisma";
 
 @Controller("orders")
 export class OrderController {
