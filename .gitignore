@@ -27,6 +27,10 @@ out/
 build
 dist
 
+# locks
+package-lock.json
+yarn.lock
+bun.lockb
 
 # Debug
 npm-debug.log*
